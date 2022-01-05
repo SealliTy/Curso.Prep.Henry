@@ -10,6 +10,11 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+  function objeto(A, B, C){
+    this.A = 1,
+    this.B = 2,
+    this.C = 3
+  };
 }
 
 
