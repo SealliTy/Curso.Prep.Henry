@@ -67,16 +67,12 @@ function colors(color) {
   switch (color){
     case 'blue':
       return 'This is blue';
-      break;
     case 'red':
       return 'This is red';
-      break;
     case 'green':
       return 'This is green';
-      break;
     case 'orange':
       return 'This is orange';
-      break;
     default:
       return 'Color not found';
   }
@@ -186,9 +182,9 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var miArreglo = [];
-    for (var i = 0; i <= 60; i += 6){
-miArreglo.push(i)
-  }
+    for (var i = 0; i <= 10; i ++){
+      miArreglo.push (6*i);
+   }
     return miArreglo
   } 
 
